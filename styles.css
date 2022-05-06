@@ -1,0 +1,126 @@
+/* Part 2*/
+body {
+  background-color: #c3cfe2;
+  margin: 0;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+.blog {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration: underline;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  background-color: #e17b77;
+}
+
+.blog:hover {
+  width: 250px;
+}
+
+.blog:hover::after {
+  content: "Check out my blog";
+}
+
+.twitter {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration: underline;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  background-color: #00aced;
+}
+
+.twitter:hover {
+  width: 250px;
+}
+
+.twitter:hover::after {
+  content: "Follow me on Twitter";
+}
+
+.linkedin {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration: underline;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  background-color: #007bb6;
+}
+
+.linkedin:hover {
+  width: 250px;
+}
+
+.linkedin:hover::after {
+  content: "Connect on Linkedin";
+}
+
+.facebook {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration: underline;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  background-color: #3b5998;
+}
+
+.facebook:hover {
+  width: 250px;
+}
+
+.facebook:hover::after {
+  content: "Like my Facebook";
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration: underline;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  background-color: black;
+}
+
+.github:hover {
+  width: 250px;
+}
+
+.github:hover::after {
+  content: "See projects on Github";
+}
+/*# sourceMappingURL=styles.css.map */

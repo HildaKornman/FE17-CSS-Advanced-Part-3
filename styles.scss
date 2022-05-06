@@ -1,0 +1,88 @@
+/* Part 2*/
+
+$primaryBckgrColor: #c3cfe2;
+
+@mixin flexCenter {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration:underline;
+  transition-duration: 500ms;
+  transition-property: width;
+}
+
+body {
+  background-color:$primaryBckgrColor;
+  margin: 0;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+  transform: translateY(8px);
+}
+
+.blog {
+  @include flexCenter;
+  background-color: #e17b77; 
+}
+
+.blog:hover {
+  width: 250px;
+  &::after {
+    content: "Check out my blog";
+  }
+}
+
+.twitter {
+  @include flexCenter;
+  background-color: #00aced;
+  }
+
+.twitter:hover {
+    width: 250px;
+    &::after {
+      content: "Follow me on Twitter"
+    }
+  }
+
+.linkedin {
+  @include flexCenter;
+  background-color: #007bb6;
+}
+
+.linkedin:hover {
+    width: 250px;
+    &::after {
+      content: "Connect on Linkedin"
+    }
+  }
+
+.facebook {
+  @include flexCenter;
+  background-color: #3b5998;
+}
+
+.facebook:hover {
+    width: 250px;
+    &::after {
+      content: "Like my Facebook"
+    }
+  }
+
+.github {
+  @include flexCenter;
+  background-color: black;
+}
+
+.github:hover {
+  width:250px;
+  &::after {
+    content: "See projects on Github"
+    }
+  }
