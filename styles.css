@@ -1,13 +1,13 @@
-/* Part 2*/
-body {
+/* Part 3*/
+.socialmedia {
   background-color: #c3cfe2;
   margin: 0;
   position: absolute;
-  bottom: 10px;
   right: 0;
+  bottom: 10px;
 }
 
-img {
+.icoon {
   height: 35px;
   width: 35px;
   -webkit-transform: translateY(8px);
@@ -25,6 +25,7 @@ img {
           transition-duration: 500ms;
   -webkit-transition-property: width;
   transition-property: width;
+  margin-left: auto;
   background-color: #e17b77;
 }
 
@@ -47,6 +48,7 @@ img {
           transition-duration: 500ms;
   -webkit-transition-property: width;
   transition-property: width;
+  margin-left: auto;
   background-color: #00aced;
 }
 
@@ -69,6 +71,7 @@ img {
           transition-duration: 500ms;
   -webkit-transition-property: width;
   transition-property: width;
+  margin-left: auto;
   background-color: #007bb6;
 }
 
@@ -91,6 +94,7 @@ img {
           transition-duration: 500ms;
   -webkit-transition-property: width;
   transition-property: width;
+  margin-left: auto;
   background-color: #3b5998;
 }
 
@@ -113,6 +117,7 @@ img {
           transition-duration: 500ms;
   -webkit-transition-property: width;
   transition-property: width;
+  margin-left: auto;
   background-color: black;
 }
 

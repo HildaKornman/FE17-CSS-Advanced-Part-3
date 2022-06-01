@@ -1,4 +1,4 @@
-/* Part 2*/
+/* Part 3*/
 
 $primaryBckgrColor: #c3cfe2;
 
@@ -11,21 +11,22 @@ $primaryBckgrColor: #c3cfe2;
   text-decoration:underline;
   transition-duration: 500ms;
   transition-property: width;
+  margin-left: auto;
 }
 
-body {
+.socialmedia {
   background-color:$primaryBckgrColor;
   margin: 0;
   position: absolute;
-  bottom: 10px;
   right: 0;
+  bottom: 10px;
 }
 
-img {
-  height: 35px;
-  width: 35px;
-  transform: translateY(8px);
-}
+.icoon {
+    height: 35px;
+    width: 35px;
+    transform: translateY(8px);
+  }
 
 .blog {
   @include flexCenter;
@@ -34,7 +35,7 @@ img {
 
 .blog:hover {
   width: 250px;
-  &::after {
+  &::after {  
     content: "Check out my blog";
   }
 }
